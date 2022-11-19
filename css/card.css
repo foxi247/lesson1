@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    max-width: 1440px;
+    width: 75%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    padding: 10px 25px;
+}
+
+
+.nav a {
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-content-list li a {
+    transition: 0.4s;
+}
+
+.nav-content-list li a:hover {
+    color: red;
+}
+
+
+
+.nav-content-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-content-list button {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    height: 45px;
+    transition: 0.7s;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-content-list button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+.nav-content-list li {
+    margin: 10px;
+}
+
+.nav-r {
+    align-items: center;
+}
+
+.container-box-store-center
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.store-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.store-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-card-store {
+    border-radius: 15px;
+    width: 330px;
+    margin: 15px;
+    height: 550px;
+    background-color: rgb(208, 208, 208);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box-card-store:hover {
+    transform: translateY(-20px);
+}
+
+.fluid-store-img {
+    width: 100%;
+}
+
+.fluid-store-img img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.fluid-store-content {
+    text-align: center;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 100;
+    color: rgb(16, 13, 13);
+    padding-top: 20px;
+}

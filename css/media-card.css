@@ -1,0 +1,30 @@
+@media (max-width: 425px) {
+
+    .container-box-store-center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
+    .nav {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #999;
+        padding: 10px 25px;
+    }
+
+
+    .nav-r {
+        display: none;
+    }
+
+
+    .nav-content-list li a {
+        font-size: 14px;
+    }
+
+}
